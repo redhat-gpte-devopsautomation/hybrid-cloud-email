@@ -1,0 +1,35 @@
+{
+  "name": "grapesjs-mjml",
+  "version": "0.1.25",
+  "description": "MJML Componenets integration in GrapesJS based on https://github.com/artf/grapesjs-mjml.git",
+  "main": "dist/grapesjs-mjml.min.js",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "v:patch": "npm version --no-git-tag-version patch",
+    "build": "npm run v:patch && webpack -p",
+    "start": "webpack-dev-server --open --progress --colors"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin",
+    "mjml",
+    "wysiwyg"
+  ],
+  "dependencies": {
+    "grapesjs": "0.15.10",
+    "grapesjs-mjml": "^0.1.15",
+    "mjml": "4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/preset-env": "7.6.0",
+    "babel-loader": "8.0.6",
+    "eslint": "6.4.0",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "^4.12.0",
+    "webpack": "4.40.2",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
