@@ -7,7 +7,7 @@ This plugin enables the usage of [MJML](https://mjml.io/) components inside the 
 
 ## Generating HTML
 
-If you want to generate a velocity template from a .mjml file you need to do the following:
+If you want to generate a HTML from a .mjml file you need to do the following:
 - Download the code and install dependencies `npm i`
 - Ensure that in `index.html` file the `templateToLoad` variable is pointing to the desired mjml file
 - Open the builder app `npm start`
