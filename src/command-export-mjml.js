@@ -88,6 +88,9 @@ export default (editor, opt = {}) => {
             console.warn(err.formattedMessage);
           });
         }
+        htmlCode.setContent(
+          mjml.html
+        );
         //htmlCode.editor.setOption('lineWrapping', 1);
         htmlCode.editor.refresh();
       }

@@ -7,6 +7,13 @@
   </mj-group>
 </mj-section>
 
+<!-- spacer -->
+<mj-section padding-top="0" padding-bottom="0" padding-left="0" padding-right="0">
+  <mj-column>
+    <mj-spacer height="25px"/>
+  </mj-column>
+</mj-section>
+
 <!-- Title -->
 <mj-section padding-top="21px" padding-bottom="12px" padding-left="12px" padding-right="12px">
   <mj-column>
@@ -19,6 +26,13 @@
   </mj-column>
 </mj-section>
 
+
+<!-- spacer -->
+<mj-section padding-top="0" padding-bottom="0" padding-left="0" padding-right="0">
+  <mj-column>
+    <mj-spacer height="25px"/>
+  </mj-column>
+</mj-section>
 
 <!-- spacer -->
 <mj-section padding-top="0" padding-bottom="0" padding-left="0" padding-right="0">
@@ -210,7 +224,7 @@
   </mj-column>
 </mj-section>
 
-{% if service_url %}
+<!-- {% if service_url %} -->
 <mj-section padding-right="12px" padding-left="12px" padding-top="0" padding-bottom="20px">
   <mj-column>
     <mj-text font-family="Red Hat Text" padding-top="12px" align="left" font-size="14px" color="#111">
@@ -218,7 +232,7 @@
     </mj-text>
   </mj-column>
 </mj-section>
-{% endif %}
+<!-- {% endif %} -->
 
 
 <!-- spacer -->
