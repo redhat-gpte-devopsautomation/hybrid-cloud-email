@@ -14,3 +14,7 @@ If you want to generate a HTML from a .mjml file you need to do the following:
 - Click on the `view code` (3rd icon `</>`) on the `right-top` and you will see the respective `html` code.
 - Use this HTML in your emails :)
 
+## Using CLI
+If you want to generate a HTML from a .mjml file using only the CLI you need to do the following:
+- Download the code and install dependencies `npm i`
+- Execute `npm run compile ./mjmlEmails/yourMJMLFile.mjml ./output.html`
