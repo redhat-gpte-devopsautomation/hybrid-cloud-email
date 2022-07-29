@@ -5,6 +5,5 @@ node_modules/
 *.log
 _index.html
 .idea
-package-lock.json
 build
 .gradle

@@ -8,7 +8,8 @@
     "lint:fix": "eslint src --fix",
     "v:patch": "npm version --no-git-tag-version patch",
     "build": "npm run v:patch && webpack -p",
-    "start": "webpack-dev-server --open --progress --colors"
+    "start": "webpack-dev-server --open --progress --colors",
+    "compile": "node ./src/cli.js"
   },
   "keywords": [
     "grapesjs",
@@ -17,6 +18,7 @@
     "wysiwyg"
   ],
   "dependencies": {
+    "fs": "^0.0.1-security",
     "grapesjs": "0.15.10",
     "grapesjs-mjml": "^0.1.15",
     "mjml": "4.4.1"
