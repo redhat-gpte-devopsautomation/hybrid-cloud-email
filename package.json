@@ -18,6 +18,7 @@
     "wysiwyg"
   ],
   "dependencies": {
+    "dashdash": "^2.0.0",
     "fs": "^0.0.1-security",
     "grapesjs": "0.15.10",
     "grapesjs-mjml": "^0.1.15",

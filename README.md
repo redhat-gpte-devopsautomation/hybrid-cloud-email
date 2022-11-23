@@ -18,5 +18,7 @@ If you want to generate a HTML from a .mjml file you need to do the following:
 If you want to generate a HTML from a partial .mjml file using only the CLI you need to do the following:
 - Download the code and install dependencies `npm i`
 - Execute `npm run compile ./mjmlEmails/yourPartialMJMLFile.mjml ./output.html`
+- Options: You can disable the minify option or enable keeping comments as follow:
+`npm run compile -- ./mjmlEmails/yourPartialMJMLFile.mjml ./output.html --minify=false --keep-comments=true`
 
 *Note: The partial MJML doesn't contain the `<mjml />`, `<mjml-head />` and `<mjml-body />` as they are included during the compilation phase [here](https://github.com/redhat-gpte-devopsautomation/hybrid-cloud-email/blob/428b866306c8efcc1d2ef7a0d40108c86818288d/src/cli.js#L4)
